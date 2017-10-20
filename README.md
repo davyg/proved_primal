@@ -6,26 +6,21 @@ This repository contains a primal algorithm C implementation solving a
 This algorithm is based on the chapter 4 of
 "Introductory Lectures on Convex Optimization" by Yurii Nesterov.
 
-This code is annotated with [ACSL](https://frama-c.com/acsl.html)
-language and can be proved using [Frama-C](https://frama-c.com/index.html),
+This code is fully annotated with [ACSL](https://frama-c.com/acsl.html)
+language and this annotation can be checked with
+[Frama-C](https://frama-c.com/index.html),
 its WP plugin and [Alt-Ergo](http://alt-ergo.lri.fr/).
 
-To run Frama-C, you need to install it thanks to
-[Opam](https://opam.ocaml.org/) for example:
-
-```
-opam install -y frama-c-base alt-ergo
-```
-
-You might also need, gcc and graphviz.
+To install Frama-C, you can use [Opam](https://opam.ocaml.org/), you
+might also need, gcc and graphviz.
 
 You can use
 
 ```
 make
 ```
-
-To run a script checking the annotation.
+To run a script which checks the annotation with Frama-C/Alt-Ergo, it also
+compiles the program and run it.
 
 The linear problem used is :
 
