@@ -1,52 +1,88 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.toc
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.script
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+.frama-c
+build_primal
+build_ellipsoid
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+*~
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+*.aux
+
+*.sublime*
+
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.zip
+*.synctex.gz
+
+bench_config.py
+
+build_primalTest/report/*.report
+build_primalTest/result
+build_primalTest/run
+build_primalTest/proof.json
+build_primalTest/prooftree.dot
+build_primalTest/prooftree.png
+build_primalTest/prooftree.svg
