@@ -23,7 +23,7 @@ To run a script which checks the annotation with Frama-C/Alt-Ergo, it also
 compiles the program and run it.
 
 The code is available in [build_primalTest/code](build_primalTest/code) and the annotations in
-[build_primalTest/code/primal.h](build_primalTest/code/primal.h)
+[build_primalTest/code/primalTest.h](build_primalTest/code/primalTest.h)
 
 The linear problem used is :
 
